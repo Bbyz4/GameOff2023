@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Exit
+  - Spike
+  - Sawblade
+  - Door
+  - Key
+  - Shooter
+  - Bullet
+  - SecretCoin
+  - Platform
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -11,8 +21,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Player
   - 
   - 
   - 
@@ -38,6 +48,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2483780101
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 300415915
+    locked: 0
+  - name: Player
+    uniqueID: 2347158571
     locked: 0
